@@ -78,3 +78,42 @@ Store student marks in an external file or database for persistence.
 License
 
 This project is open-source and free to use.
+
+
+
+
+
+
+
+
+TASK-2
+
+
+List Operations: Extracting and Reversing Elements
+Description
+This Python script performs list operations by extracting the first five elements from a given list and then reversing the extracted portion. The script is designed to run directly in VS Code and prints the original list, extracted list, and reversed list as output.
+
+How It Works
+A list of numbers from 1 to 10 is defined.
+The first five elements are extracted from the list.
+The extracted list is reversed.
+The original list, extracted list, and reversed list are printed.
+Installation & Running Instructions
+Prerequisites
+Install Python (version 3.x recommended)
+Install VS Code (optional, but recommended)
+Running the Script
+Open VS Code
+Create a new file: list_operations.py
+Copy & paste the code into the file.
+Open the terminal in VS Code (Ctrl + ` or via Terminal > New Terminal).
+Navigate to the script's directory using:
+cd path/to/your/file
+Run the script:
+python list_operations.py
+Expected Output
+Original list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Extracted list: [1, 2, 3, 4, 5]
+Reversed list: [5, 4, 3, 2, 1]
+License
+This project is open-source and free to use
