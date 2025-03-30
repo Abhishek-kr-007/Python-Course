@@ -1,33 +1,80 @@
-STUDENTS MARKS LOOKUP
+TASK-1
 
-Description
+Student Marks Lookup Program
 
-This Python script allows users to retrieve student's marks from a predefined Dictionary.The Users is prompted to enter a student's name, and if the name exists in the dictionary, their marks are displayed. If the name is not found, an appropriate message is shown.
+Overview
+
+The Student Marks Lookup Program is a simple Python script that allows users to retrieve student marks by entering a student's name. If the student's name exists in the predefined dictionary, their marks are displayed; otherwise, the program notifies the user that the student is not found.
 
 Features
 
-Accepts users input for a student's name
+Case-insensitive student name lookup
 
-Checks if the entered name exists in the Student_marks dictionary.
+Allows multiple queries until the user exits
 
-Returs the marks of the student if found.
+Provides a friendly prompt for user interaction
 
-Displays an error message if the student is not in the dictionary.
 
-Handles minor input inconsistencies by stripping extra spaces and normalizing capitalization.
+Prerequisites
 
-Usage 
+Python 3.x installed on your system
 
-1. Run the script in a Python environment.
 
-2. Enter a student's name when prompted.
+How to Run
 
-3. View the corresponding marks or an error message if the name isn't found.
+1. Download or clone this repository.
 
-Requirements 
 
-Python 3.x
+2. Navigate to the directory containing the script.
+
+
+3. Run the script using the following command:
+
+python student_marks.py
+
+
+4. Enter a student's name when prompted.
+
+
+5. Type exit to quit the program.
+
+
+
+Code Explanation
+
+The script stores student names and marks in a dictionary.
+
+The user is prompted to enter a student's name.
+
+The program converts the input to lowercase to allow case-insensitive searches.
+
+If a match is found, the student's marks are displayed.
+
+If no match is found, an error message is displayed.
+
+The program runs in a loop, allowing multiple searches until the user types exit.
+
+
+Example Usage
+
+Enter the student's name (or type 'exit' to quit): Alice
+Alice's marks: 85
+
+Enter the student's name (or type 'exit' to quit): john
+Student 'john' not found. Please try again.
+
+Enter the student's name (or type 'exit' to quit): exit
+Exiting program. Goodbye!
+
+Future Improvements
+
+Add a feature to allow users to add new students dynamically.
+
+Enable fuzzy search for partial name matching.
+
+Store student marks in an external file or database for persistence.
+
 
 License
 
-This Project is open-source and available for modification and distribution.
+This project is open-source and free to use.
